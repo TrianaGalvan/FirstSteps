@@ -8,9 +8,11 @@
 		<artifactId>tutorial-servicios</artifactId>
 		<version>1</version>
 	</parent>
+	
 	<artifactId>tutorial-api-rest</artifactId>
-	<name>tutorial-api-rest</name>
-	<url>http://maven.apache.org</url>
+	<name>Tutorial Api Rest</name>
+	<packaging>jar</packaging>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -18,10 +20,10 @@
 	</properties>
 	<dependencies>
 		<!-- Spring Boot -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.springframework.boot</groupId> -->
-<!-- 			<artifactId>spring-boot-starter-web</artifactId> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.springframework.boot</groupId> -->
+		<!-- <artifactId>spring-boot-starter-web</artifactId> -->
+		<!-- </dependency> -->
 		<!-- Capa de persistencia -->
 		<dependency>
 			<groupId>mx.com.anzen</groupId>
@@ -31,7 +33,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>Rest Service</finalName>
+		<finalName>ApiRestService</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

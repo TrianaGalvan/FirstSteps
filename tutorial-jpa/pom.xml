@@ -8,18 +8,18 @@
 		<artifactId>tutorial-servicios</artifactId>
 		<version>1</version>
 	</parent>
+	
 	<artifactId>tutorial-jpa</artifactId>
-	<name>tutorial-jpa</name>
-	<url>http://maven.apache.org</url>
+	<name>Tutorial JPA</name>
 	<packaging>jar</packaging>
 
 	<dependencies>
 		<!-- Spring Data -->
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-commons-core</artifactId>
-			<version>1.4.1.RELEASE</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.data</groupId> -->
+<!-- 			<artifactId>spring-data-commons-core</artifactId> -->
+<!-- 			<version>1.4.1.RELEASE</version> -->
+<!-- 		</dependency> -->
 		<!-- Spring JPA -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -61,18 +61,6 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
+		<finalName>TutorialJPA</finalName>
 	</build>
 </project>

@@ -1,3 +1,2 @@
-mx/com/anzen/repository/UserRepository.class
-mx/com/anzen/Application.class
-mx/com/anzen/persistance/Usuario.class
+mx/com/anzen/jpa/persistance/Usuario.class
+mx/com/anzen/jpa/repository/UserRepository.class

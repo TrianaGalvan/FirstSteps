@@ -1,4 +1,4 @@
-/home/triana/Documentos/WorkSpace STS/tutorial-servicios/tutorial-api-rest/src/main/java/mx/com/anzen/controller/UserController.java
-/home/triana/Documentos/WorkSpace STS/tutorial-servicios/tutorial-api-rest/src/main/java/mx/com/anzen/Application.java
-/home/triana/Documentos/WorkSpace STS/tutorial-servicios/tutorial-api-rest/src/main/java/mx/com/anzen/model/TranslatorUsuario.java
-/home/triana/Documentos/WorkSpace STS/tutorial-servicios/tutorial-api-rest/src/main/java/mx/com/anzen/model/ModeloUsuario.java
+/Users/acevedito/LenovoMarco/Repositorio/Triana/FirstSteps/tutorial-api-rest/src/main/java/mx/com/anzen/rest/Application.java
+/Users/acevedito/LenovoMarco/Repositorio/Triana/FirstSteps/tutorial-api-rest/src/main/java/mx/com/anzen/rest/model/TranslatorUsuario.java
+/Users/acevedito/LenovoMarco/Repositorio/Triana/FirstSteps/tutorial-api-rest/src/main/java/mx/com/anzen/rest/controller/UserController.java
+/Users/acevedito/LenovoMarco/Repositorio/Triana/FirstSteps/tutorial-api-rest/src/main/java/mx/com/anzen/rest/model/ModeloUsuario.java

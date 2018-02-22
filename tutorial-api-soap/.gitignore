@@ -15,8 +15,7 @@ build
 output
 lib/downloaded
 *.ser
-target/
-/target
+target/*
 .idea/
 nbactions.xml
 nb-configuration.xml
